@@ -238,3 +238,51 @@ body {
         font-size: 2rem;
     }
 }
+/* --- SEÇÃO DE SOLUÇÕES --- */
+.solutions-section {
+    padding: 80px 20px;
+}
+
+.section-subtitle {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+    max-width: 700px;
+}
+
+.grid-solutions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.solution-box {
+    background: linear-gradient(135deg, #151c2e 0%, #0d1527 100%);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 30px;
+    transition: transform 0.3s;
+}
+
+.solution-box:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.icon-wrap {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.solution-box h3 {
+    font-family: var(--font-heading);
+    font-size: 1.4rem;
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+.solution-box p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
