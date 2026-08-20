@@ -7,60 +7,120 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header class="header">
         <div class="container nav-container">
-            <a href="index.html" class="logo">
-                <span class="logo-icon">⚡</span>DILEMAS<span class="highlight">DIGITAIS</span>
-            </a>
+            <a href="#" class="logo">DILEMAS<span>DIGITAIS</span></a>
             <nav>
                 <ul class="nav-links">
                     <li><a href="#destaque">Destaque</a></li>
                     <li><a href="#reportagens">Reportagens</a></li>
-                    <li><a href="#solucoes">Soluções</a></li>
-                    <li><a href="#dados">Dados</a></li>
+                    <li><a href="#dados">O Brasil em Dados</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <main>
-        <section id="destaque" class="hero">
-            <div class="hero-overlay"></div>
-            <div class="container hero-content">
-                <div class="badge"><span class="pulse-dot"></span> Especial Brasil 2026</div>
-                <h1>Analgésicos Emocionais: Como o Algoritmo Molda a Saúde Mental</h1>
-                <p>Com uma média de 9 horas diárias conectados, o Brasil lidera o ranking de tempo de tela na América Latina. O preço? Uma epidemia silenciosa de ansiedade e dependência digital entre os jovens.</p>
-                <a href="materia-saude-mental.html" class="btn-main">
-                    <span>Ler Reportagem Completa</span>
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                </a>
+    <section id="destaque" class="hero">
+        <div class="container hero-content">
+            <span class="badge">Especial Brasil</span>
+            <h1>Analgésicos Emocionais: Como o Algoritmo Molda a Saúde Mental dos Jovens Brasileiros</h1>
+            <p>Com uma média de 9 horas diárias conectados, o Brasil lidera o ranking de tempo de tela na América Latina. O preço? Uma epidemia silenciosa de ansiedade e dependência digital.</p>
+            <a href="#" class="btn-main">Ler Reportagem Completa</a>
+        </div>
+    </section>
+
+    <section id="reportagens" class="articles-section container">
+        <h2 class="section-title">Investigações & Reportagens</h2>
+        <div class="grid-articles">
+
+            <article class="card">
+                <div class="card-tag">Desinformação</div>
+                <h3>O Mercado das Fake News em Anos Eleitorais no Brasil</h3>
+                <p>Como disparos em massa e redes de perfis falsos continuam desafiando a democracia e o Poder Judiciário brasileiro.</p>
+                <a href="#" class="read-more">Ler matéria &rarr;</a>
+            </article>
+
+            <article class="card">
+                <div class="card-tag">Trabalho & Futuro</div>
+                <h3>Uberização e Precarização: A Rotina dos Entregadores de App</h3>
+                <p>Milhares de brasileiros dependem dos algoritmos para comer. Mas quem protege os trabalhadores da 'economia gig'?</p>
+                <a href="#" class="read-more">Ler matéria &rarr;</a>
+            </article>
+
+            <article class="card">
+                <div class="card-tag">Privacidade</div>
+                <h3>Vazamento de Dados e a LGPD: O Brasil está Seguro?</h3>
+                <p>Mesmo com a Lei Geral de Proteção de Dados, megavazamentos continuam expondo milhões de CPF e chaves Pix.</p>
+                <a href="#" class="read-more">Ler matéria &rarr;</a>
+            </article>
+
+            <article class="card">
+                <div class="card-tag">Inteligência Artificial</div>
+                <h3>Deepfakes no Acolhimento Escolar: O Novo Bullying Digital</h3>
+                <p>O uso não autorizado de IA para manipulação de imagens assusta pais, alunos e educadores pelo país.</p>
+                <a href="#" class="read-more">Ler matéria &rarr;</a>
+            </article>
+
+        </div>
+    </section>
+
+    <section id="dados" class="stats-section">
+        <div class="container grid-stats">
+            <div class="stat-box">
+                <h2>1º Lugar</h2>
+                <p>Brasil é um dos países que mais consomem redes sociais no mundo.</p>
             </div>
-        </section>
+            <div class="stat-box">
+                <h2>81%</h2>
+                <p>Da população brasileira usa a internet diariamente (fonte: Cetic.br).</p>
+            </div>
+            <div class="stat-box">
+                <h2>+100 Mi</h2>
+                <p>De brasileiros já tiveram dados expostos em vazamentos digitais.</p>
+            </div>
+        </div>
+    </section>
 
-        <section id="reportagens" class="articles-section container">
-            <div class="section-header">
-                <h2 class="section-title">Investigações & Reportagens</h2>
-                <p class="section-subtitle">Jornalismo de impacto sobre os conflitos do mundo hiperconectado.</p>
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Dilemas Digitais. Jornalismo independente sobre o impacto da tecnologia.</p>
+        </div>
+        <!-- Seção de Soluções e Caminhos -->
+    <section id="solucoes" class="solutions-section container">
+        <h2 class="section-title">Caminhos e Soluções: Como Virar o Jogo?</h2>
+        <p class="section-subtitle">Enfrentar os dilemas digitais no Brasil exige um esforço conjunto entre cidadãos, educadores e regulação.</p>
+        
+        <div class="grid-solutions">
+            
+            <!-- Bloco 1 -->
+            <div class="solution-box">
+                <div class="icon-wrap">🧠</div>
+                <h3>Higiene Digital Individual</h3>
+                <p>Configurar limites de tempo de tela diretamente no sistema operacional do celular, desativar notificações não essenciais e estabelecer "zonas livres de tecnologia" em casa (como o quarto antes de dormir) reduzem drasticamente os picos de dopamina e ansiedade gerados pelos algoritmos.</p>
             </div>
 
-            <div class="grid-articles">
+            <!-- Bloco 2 -->
+            <div class="solution-box">
+                <div class="icon-wrap">🏫</div>
+                <h3>Educação Midiática nas Escolas</h3>
+                <p>Incluir letramento digital e educação midiática nos currículos escolares de forma crítica. Ensinar jovens e adultos a checarem fontes antes de compartilhar mensagens, reconhecerem imagens geradas por Inteligência Artificial (Deepfakes) e entenderem o valor dos seus próprios dados pessoais.</p>
+            </div>
 
-                <article class="card">
-                    <div class="card-image">
-                        <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=600&q=80" alt="Desinformação na internet">
-                        <span class="card-tag tag-red">Desinformação</span>
-                    </div>
-                    <div class="card-body">
-                        <h3>O Mercado das Fake News em Anos Eleitorais</h3>
-                        <p>Como disparos em massa e redes de perfis falsos continuam desafiando a democracia e o Judiciário brasileiro.</p>
-                        <a href="materia-fake-news.html" class="read-more">Ler matéria completa <span>&rarr;</span></a>
-                    </div>
-                </article>
+            <!-- Bloco 3 -->
+            <div class="solution-box">
+                <div class="icon-wrap">⚖️</div>
+                <h3>Fortalecimento de Leis e Direitos</h3>
+                <p>Garantir o cumprimento rigoroso da LGPD pelas empresas, exigir maior transparência dos algoritmos das grandes plataformas e discutir legislações justas que deem garantias de previdência e segurança aos trabalhadores que dependem de aplicativos.</p>
+            </div>
 
-                <article class="card">
-                    <div class="card-image">
-                        <img src="https://images.unsplash
+        </div>
+    </section>
+    </footer>
+
+</body>
+</html>
